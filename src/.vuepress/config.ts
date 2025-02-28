@@ -25,13 +25,13 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      //title: "Blog Demo",
-      description: "Share your life in Spain",
+      //title: "Cero Tech",
+      description: "「Engineered from Zero, Scaled to Extremes」",
     },
     "/zh/": {
       lang: "zh-CN",
-      //title: "cero zero",
-      description: "西班牙生活、科技 分享",
+      //title: "Cero Tech",
+      description: "「从零构建」- 「向极拓展」",
     },
   },
 
