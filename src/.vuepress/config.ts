@@ -1,15 +1,20 @@
 import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import googleAdSensePlugin from 'vuepress-plugin-google-adsense2';
 import theme from "./theme.js";
 
 export default defineUserConfig({
-
+  head: [
+    // 插入 Google AdSense 脚本
+    [
+      "script",
+      {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2072750546202515",
+        crossorigin: "anonymous",
+      },
+    ],
+  ],
   plugins: [
-    // 添加你需要的插件
-    googleAdSensePlugin({
-      id: 'ca-pub-2072750546202515',
-    }),
     googleAnalyticsPlugin({
       // 配置项
       id: 'G-G63MSQ1CCE',
