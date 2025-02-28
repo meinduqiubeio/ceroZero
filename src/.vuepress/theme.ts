@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
@@ -192,6 +191,7 @@ export default hopeTheme({
   },
 
   plugins: {
+
     blog: true,
 
     // Install @waline/client before enabling it
