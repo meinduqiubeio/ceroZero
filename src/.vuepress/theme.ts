@@ -15,7 +15,6 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-
   blog: {
     medias: {
       // Baidu: "https://example.com",
@@ -24,14 +23,14 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       //Discord: "https://discord.gg/dgG6cfWV",
       // Dribbble: "https://example.com",
-      // Email: "mailto:info@example.com",
+      Email: "mailto:lwh7749@@outlook.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
       GitHub: "https://github.com/meinduqiubeio/ceroZero",
       // Gitlab: "https://example.com",
-      Gmail: "mailto:lwh7749@@outlook.com",
+      //Gmail: "mailto:lwh7749@@outlook.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
@@ -64,7 +63,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "「Engineered from Zero, Scaled to Extremes」",
 
       displayFooter: true,
 
@@ -88,7 +87,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "「从零构建 - 向极拓展」",
 
       displayFooter: true,
 
@@ -107,12 +106,12 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+        hint: "Contact me for password, please.",
+        password: "111Aaa111.",
       },
       "/zh/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+        hint: "密码请联系我获取。",
+        password: "111Aaa111.",
       },
     },
   },
@@ -191,7 +190,7 @@ export default hopeTheme({
   },
 
   plugins: {
-
+    
     blog: true,
 
     // Install @waline/client before enabling it

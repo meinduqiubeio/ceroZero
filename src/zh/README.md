@@ -2,10 +2,10 @@
 home: true
 layout: BlogHome
 icon: house
-title: 博客主页
+title: 主页
 heroText: Cero Tech
 heroFullScreen: true
-tagline: 探索技术，分享生活
+tagline: 「从零构建 - 向极拓展」
 projects:
   - icon: code
     name: 技术博客
@@ -31,8 +31,4 @@ projects:
     name: 合作交流
     desc: 期待与您的技术交流
     link: /zh/about/contact
-footer: 「从零构建」- 「向极拓展」
 ---
-const message: string = "VuePress Theme Hope";
-
-document.querySelector("h1").innerHTML = message;

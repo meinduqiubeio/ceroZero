@@ -37,6 +37,4 @@ projects:
     name: custom item
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
-
-footer: 「Engineered from Zero, Scaled to Extremes」
 ---
