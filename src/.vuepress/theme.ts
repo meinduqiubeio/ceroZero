@@ -11,6 +11,7 @@ export default hopeTheme({
   },
 
   logo: "logo.jpg",
+  darkmode: "enable",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -190,9 +191,7 @@ export default hopeTheme({
   },
 
   plugins: {
-    
     blog: true,
-
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     // comment: {
