@@ -1,7 +1,7 @@
 ---
 home: true
 icon: house
-title: 主页
+title: 主页 | Cero Tech
 heroText: 「从零构建 - 向极拓展」
 bgImage: /assets/images/bg5.jpg
 heroFullScreen: true
@@ -26,7 +26,7 @@ highlights:
       - title: 电子菜单
         icon: utensils
         details: 餐厅数字化解决方案，支持多语言，扫码点餐，在线支付
-        link: /zh/services/e-menu/
+        link: /zh/services/e-menu/emenu.md
 
       - title: 西班牙语翻译
         icon: language

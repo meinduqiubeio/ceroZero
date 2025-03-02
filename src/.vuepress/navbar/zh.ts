@@ -9,12 +9,12 @@ export const zhNavbar = navbar([
   {
     text: "科技",
     icon: "code",
-    link: "/zh/posts/",
+    link: "/zh/posts/tech/",
   },
   {
     text: "生活",
     icon: "star",
-    link: "/zh/posts/",
+    link: "/zh/posts/life/",
   },
   {
     text: "合作",
