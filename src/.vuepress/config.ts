@@ -50,12 +50,12 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       //title: "Cero Tech",
-      description: "「Engineered from Zero, Scaled to Extremes」",
+      //description: "「Engineered from Zero, Scaled to Extremes」",
     },
     "/zh/": {
       lang: "zh-CN",
       //title: "Cero Tech",
-      description: "「从零构建」- 「向极拓展」",
+      //description: "「从零构建」- 「向极拓展」",
     },
   },
 
