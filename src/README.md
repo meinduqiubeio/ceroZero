@@ -1,40 +1,43 @@
 ---
 home: true
-layout: BlogHome
 icon: house
-title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+title: Home
+heroText: "Engineered from Zero, Scaled to Extremes"
+bgImage: /assets/images/bg5.jpg
 heroFullScreen: true
-projects:
-  - icon: folder-open
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+bgImageStyle:
+  opacity: 0.5
+  background-position: 50% 60%
+highlights:
+  - header: Professional Services · One-Stop Solutions
+    description: Comprehensive support for your life and business in Spain
+    bgImage: /assets/images/bg7.jpg
+    bgImageDark: /assets/images/bg7.jpg
+    bgImageStyle:
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    features:
+      - title: Website Development
+        icon: laptop-code
+        details: Responsive website design, e-commerce platform setup, customized development solutions
+        link: /services/web-dev/
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+      - title: Digital Menu
+        icon: utensils
+        details: Restaurant digitalization solutions, multi-language support, QR code ordering, online payment
+        link: /services/e-menu/
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+      - title: Spanish Translation
+        icon: language
+        details: Professional document translation, interpretation services, business negotiation assistance
+        link: /services/translation/
 
-  - icon: newspaper
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+      - title: Real Estate & Mortgage Consulting
+        icon: house-circle-check
+        details: Property investment advice, loan plan comparison, procedure guidance
+        link: /services/real-estate/
 
-  - icon: user-group
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
-
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
 ---
+<ParticleBackground />
+<HeroEffects />
