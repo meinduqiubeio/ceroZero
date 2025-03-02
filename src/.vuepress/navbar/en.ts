@@ -8,12 +8,17 @@ export const enNavbar = navbar([
   },
   {
     text: "Technology",
-    icon: "laptop-code",
-    link: "/posts/",
+    icon: "code",
+    link: "/posts/tech/",
   },
   {
     text: "Lifestyle",
-    icon: "camera-retro",
-    link: "/posts/",
+    icon: "star",
+    link: "/posts/life/",
+  },
+  {
+    text: "Contact",
+    icon: "briefcase",
+    link: "/posts/intro.md",
   },
 ]);
