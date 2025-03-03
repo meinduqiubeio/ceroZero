@@ -13,7 +13,7 @@ export default hopeTheme({
   logo: "logo.jpg",
   darkmode: "enable",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
   blog: {
@@ -57,7 +57,7 @@ export default hopeTheme({
   },
 
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -81,7 +81,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -91,11 +91,6 @@ export default hopeTheme({
       footer: "「从零构建 - 向极拓展」",
 
       displayFooter: true,
-
-      blog: {
-        description: "合作请联系",
-        intro: "/zh/intro.html",
-      },
 
       // page meta
       metaLocales: {

@@ -4,21 +4,21 @@ export const zhNavbar = navbar([
   {
     text: "主页",
     icon: "house",
-    link: "/zh/"
+    link: "/"
   },
   {
     text: "科技",
     icon: "code",
-    link: "/zh/posts/tech/",
+    link: "/posts/tech/intro.md",
   },
   {
     text: "生活",
     icon: "star",
-    link: "/zh/posts/life/",
+    link: "/posts/life/intro.md",
   },
   {
     text: "合作",
     icon: "briefcase",
-    link: "/zh/posts/intro.md",
+    link: "/posts/intro.md",
   },
 ]);

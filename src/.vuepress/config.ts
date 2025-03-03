@@ -45,22 +45,19 @@ export default defineUserConfig({
     })
   ],
   base: "/",
-
   locales: {
     "/": {
-      lang: "en-US",
-      //title: "Cero Tech",
-      //description: "「Engineered from Zero, Scaled to Extremes」",
-    },
-    "/zh/": {
       lang: "zh-CN",
-      //title: "Cero Tech",
-      //description: "「从零构建」- 「向极拓展」",
+      // title: "Cero Tech",
+      //  description: "「从零构建」- 「向极拓展」",
+    },
+    "/en/": {
+      lang: "en-US",
+      // title: "Cero Tech",
+      // description: "「Engineered from Zero, Scaled to Extremes」",
     },
   },
-
   theme,
-
   // Enable it with pwa
   // shouldPrefetch: false,
 });

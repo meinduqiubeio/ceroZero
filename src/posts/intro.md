@@ -7,8 +7,6 @@ cover: /assets/images/hero.jpg
 
 ## 关于我 🎯
 
-- 🌍 目前在西班牙工作和生活
-- 💻 专注于前端开发与技术创新
 - 🌱 持续学习，不断成长
 - 🤝 期待与您交流合作
 
@@ -22,7 +20,8 @@ cover: /assets/images/hero.jpg
 
 感谢您对我的关注！如果您有任何问题、建议或合作意向，欢迎通过以下方式与我联系。
 
-## 即时通讯
+
+
 
 <div class="contact-container">
   <div class="contact-item">
@@ -30,7 +29,7 @@ cover: /assets/images/hero.jpg
     <div class="contact-info">
       <h3>微信</h3>
       <p>扫描下方二维码添加我的微信</p>
-      <img src="/assets/images/hero.jpg" alt="微信二维码" style="max-width: 200px;" />
+      <img src="/assets/images/wechat_qrcode.jpg" alt="微信二维码" style="max-width: 200px;max-height: 200px;" />
     </div>
   </div>
   
@@ -38,27 +37,25 @@ cover: /assets/images/hero.jpg
     <i class="fa-brands fa-qq"></i>
     <div class="contact-info">
       <h3>QQ</h3>
-      <p>QQ号：123456789</p>
-      <!-- 请替换为您的实际QQ号 -->
+      <p>扫描下方二维码添加我的QQ</p>
+      <img src="/assets/images/qq_qrcode.png" alt="QQ二维码" style="max-width: 200px;max-height: 200px;" />
     </div>
   </div>
 </div>
-
-## 电子邮件
 
 <div class="contact-container">
   <div class="contact-item">
-    <i class="fa-solid fa-envelope"></i>
+    <i class="fa-brands fa-whatsapp"></i>
     <div class="contact-info">
-      <h3>邮箱</h3>
-      <p><a href="mailto:lwh7749@outlook.com">lwh7749@outlook.com</a></p>
+      <h3>WhatsApp</h3>
+      <p>点击下方按钮直接联系我</p>
+      <div class="whatsapp-quick-contact">
+        <a href="https://wa.me/34684252130?text=您好，我有其他问题想咨询" class="whatsapp-btn">咨询</a>
+      </div>
     </div>
   </div>
 </div>
 
-## 留言
-
-如果您有任何问题或建议，也可以在下方留言，我会尽快回复您。
 
 <style>
 .contact-container {
@@ -99,10 +96,25 @@ cover: /assets/images/hero.jpg
 .contact-info p {
   margin: 0;
 }
+.email-quick-contact {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
 
-@media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column;
-  }
+.email-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: var(--theme-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: opacity 0.3s;
+}
+
+.email-btn:hover {
+  opacity: 0.9;
 }
 </style>
