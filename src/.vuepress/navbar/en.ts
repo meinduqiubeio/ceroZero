@@ -4,21 +4,21 @@ export const enNavbar = navbar([
   {
     text: "Home",
     icon: "house",
-    link: "/"
+    link: "/en/"
   },
   {
     text: "Technology",
     icon: "code",
-    link: "/posts/tech/",
+    link: "/en/posts/tech/",
   },
   {
     text: "Lifestyle",
     icon: "star",
-    link: "/posts/life/",
+    link: "/en/posts/life/",
   },
   {
     text: "Contact",
     icon: "briefcase",
-    link: "/posts/intro.md",
+    link: "/en/posts/intro.md",
   },
 ]);
