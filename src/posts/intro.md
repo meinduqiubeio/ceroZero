@@ -1,6 +1,6 @@
 ---
 icon: circle-info
-cover: /assets/images/hero.jpg
+# cover: /assets/images/hero.jpg
 ---
 
 # 你好 👋
@@ -19,8 +19,6 @@ cover: /assets/images/hero.jpg
 ## 联系我 📫
 
 感谢您对我的关注！如果您有任何问题、建议或合作意向，欢迎通过以下方式与我联系。
-
-
 
 
 <div class="contact-container">

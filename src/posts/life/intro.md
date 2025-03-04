@@ -62,9 +62,9 @@ icon: plane
 
 ## 最新更新
 
-- [西班牙驾照考试流程2024版](/zh/posts/life/driving-license-2024.md)
-- [居留续签最新政策解读](/zh/posts/life/residence-permit-update.md)
-- [医疗系统使用指南](/zh/posts/life/healthcare-guide.md)
+<!-- - [西班牙驾照考试流程2024版](/zh/posts/life/driving-license-2024.md) -->
+<!-- - [居留续签最新政策解读](/zh/posts/life/residence-permit-update.md) -->
+<!-- - [医疗系统使用指南](/zh/posts/life/healthcare-guide.md) -->
 
 ## 获取帮助
 

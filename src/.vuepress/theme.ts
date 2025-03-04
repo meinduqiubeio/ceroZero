@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-
 export default hopeTheme({
   hostname: "https://cerozero.cc/",
 
@@ -65,6 +64,7 @@ export default hopeTheme({
       sidebar: enSidebar,
 
       footer: "「Engineered from Zero, Scaled to Extremes」",
+      copyright: "Made with  vuepress-theme-hope - 2025-present",
 
       displayFooter: true,
 
@@ -89,13 +89,13 @@ export default hopeTheme({
       sidebar: zhSidebar,
 
       footer: "「从零构建 - 向极拓展」",
-
+      copyright: "Made with vuepress - 2025-present",
       displayFooter: true,
 
       // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
+      // metaLocales: {
+      //   // editLink: "在 GitHub 上编辑此页",
+      // },
     },
   },
 
@@ -186,6 +186,10 @@ export default hopeTheme({
   },
 
   plugins: {
+    // seo:true,
+
+    slimsearch: true,
+
     blog: true,
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.

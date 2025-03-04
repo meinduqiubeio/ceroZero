@@ -37,7 +37,6 @@ highlights:
         icon: house-circle-check
         details: 房产投资建议，贷款方案对比，手续办理指导
         link: /services/real-estate/
-
 ---
 <ParticleBackground />
 <HeroEffects />
