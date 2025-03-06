@@ -18,7 +18,7 @@ icon: plane
 ### 驾驶证件
 - 中国驾照换领西班牙驾照
 - 西班牙驾照考取流程
-- 驾照更新与补办
+- [驾照更新与补办](/posts/life/drivingLicense/renewDriverLicense.md)
 
 ### 护照业务
 - 护照续签流程
@@ -60,16 +60,7 @@ icon: plane
 - 学历认证流程
 - 继续教育机会
 
-## 最新更新
-
-<!-- - [西班牙驾照考试流程2024版](/zh/posts/life/driving-license-2024.md) -->
-<!-- - [居留续签最新政策解读](/zh/posts/life/residence-permit-update.md) -->
-<!-- - [医疗系统使用指南](/zh/posts/life/healthcare-guide.md) -->
 
 ## 获取帮助
 
-如果您在西班牙生活中遇到困难，或需要专业咨询服务，欢迎 [联系我](/posts/intro.md)。我们提供：
-
-- 文件翻译服务
-- 预约陪同服务
-- 个性化咨询
+如果您还有建议或者疑问，欢迎 [联系我](/posts/intro.md)。

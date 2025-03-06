@@ -18,11 +18,20 @@ export const zhSidebar = sidebar({
       text: "生活记录",
       icon: "camera",
       prefix: "posts/life/",
+      collapsible: true,
+      expanded: false,
       children: [
          "intro.md",
-        // "food/",
-        // "travel/",
-        // "culture/",
+         {
+           text: "驾照相关",
+           icon: "id-card",
+           prefix: "drivingLicense/",
+           collapsible: true,
+           children: [
+             "renewDriverLicense.md",
+             // 其他驾照相关文件
+           ],
+         },
       ],
     },
     {
