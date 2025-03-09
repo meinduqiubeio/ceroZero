@@ -16,7 +16,6 @@ icon: plane
 - 所需材料清单
 
 ### 驾驶证件
-- 中国驾照换领西班牙驾照
 - 西班牙驾照考取流程
 - [驾照更新与补办](/posts/life/drivingLicense/renewDriverLicense.md)
 
@@ -31,7 +30,7 @@ icon: plane
 - 租房攻略
 - 买房流程
 - 水电气网办理
-- 家具采购推荐
+- [Vida Laboral 获取流程](/posts/life/documents/vidaLaboral.md)
 
 ### 医疗保险
 - 公立医疗系统使用指南
