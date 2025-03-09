@@ -32,6 +32,15 @@ export const zhSidebar = sidebar({
              // 其他驾照相关文件
            ],
          },
+         {
+          text: "材料",
+          icon: "landmark",
+          prefix: "documents/",
+          collapsible: true,
+          children: [
+            "vidaLaboral.md",
+          ],
+        },
       ],
     },
     {
