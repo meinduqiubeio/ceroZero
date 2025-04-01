@@ -88,3 +88,6 @@ Vida Laboral没有固定的有效期，但一般建议使用3个月内的最新�
 
 *本文信息更新于2025年3月，请以西班牙社保局官方网站最新规定为准。*
 <!-- ![Vida Laboral示例](/assets/images/vida-laboral-example.jpg) -->
+
+<GoogleAdsense />
+<GoogleAdsense slot="3037493779" />

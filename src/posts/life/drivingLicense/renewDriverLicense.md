@@ -118,3 +118,6 @@ head:
 ---
 
 *本文信息更新于2025年3月，请以西班牙交通总局(DGT)最新规定为准。*
+
+<GoogleAdsense />
+<GoogleAdsense slot="3037493779" />
