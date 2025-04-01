@@ -1,7 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { socialSharePlugin } from 'vuepress-plugin-social-share';
-
+import { sitemapPlugin } from '@vuepress/plugin-sitemap';
 
 import theme from "./theme.js";
 
@@ -13,6 +13,36 @@ export default defineUserConfig({
     '!**/secret/**/**', // 排除隐藏目录
   ],
   head: [
+    // 添加网站地图链接
+    ['link', { rel: 'sitemap', type: 'application/xml', href: '/sitemap.xml' }],
+    
+    // 添加规范链接
+    ['link', { rel: 'canonical', href: 'https://cerozero.cc' }],
+    
+    // 添加移动设备优化
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+    
+    // 添加网站描述
+    ['meta', { name: 'description', content: '「从零构建 - 向极拓展」- Cero Tech 官方网站，提供网站开发、电子菜单、西班牙语翻译等服务' }],
+    
+    // 添加关键词
+    ['meta', { name: 'keywords', content: '技术服务,网站开发,电子菜单,西班牙语翻译,买房贷款咨询' }],
+    
+    // 添加作者信息
+    ['meta', { name: 'author', content: 'Cero Tech' }],
+    
+    // 添加社交媒体元标签
+    ['meta', { property: 'og:title', content: 'Cero Tech' }],
+    ['meta', { property: 'og:description', content: '「从零构建 - 向极拓展」- Cero Tech 官方网站' }],
+    ['meta', { property: 'og:url', content: 'https://cerozero.cc' }],
+    ['meta', { property: 'og:image', content: 'https://cerozero.cc/logo.jpg' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    
+    // 添加Twitter卡片
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@cerotech' }],
+    
+    // 保留原有的脚本
     ['script', { 
       id: 'CookieDeclaration',
       src: 'https://consent.cookiebot.com/6de2a54e-c721-480d-9f82-b65954fe08b3/cd.js',
@@ -43,7 +73,11 @@ export default defineUserConfig({
     ],
   ],
   plugins: [
-   
+    sitemapPlugin({
+      hostname: 'https://cerozero.cc',
+      // 可选：排除不需要的页面
+      excludePaths: ['/404.html', '/private/'],
+    }),
     socialSharePlugin({
       networks: [
         // enable build-in networks by default
