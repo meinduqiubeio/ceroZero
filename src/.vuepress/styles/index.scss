@@ -1,0 +1,252 @@
+// 首页样式
+
+// 关于部分样式
+.about-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--bg-color-secondary);
+  border-radius: 8px;
+}
+
+.about-section h2 {
+  color: var(--theme-color);
+  margin-bottom: 1rem;
+}
+
+.about-section ul {
+  padding-left: 1.5rem;
+}
+
+// 技术能力展示区域样式
+.tech-section {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tech-card {
+  background-color: var(--bg-color-secondary);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tech-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--theme-color);
+}
+
+// 案例展示区域样式
+.case-section {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.case-card {
+  background-color: var(--bg-color-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.case-card:hover {
+  transform: translateY(-5px);
+}
+
+.case-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.case-content {
+  padding: 1.5rem;
+  text-align: left;
+}
+
+// 行动召唤区域样式
+.cta-section {
+  background: linear-gradient(135deg, var(--theme-color) 0%, var(--theme-color-dark, #0056b3) 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+  background-color: white;
+  color: var(--theme-color);
+}
+
+.cta-button.primary:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: translateY(-2px);
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.cta-button.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+// 英雄区域标题样式
+.vp-hero-info-wrapper .vp-hero-title {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+// 动画效果
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+// 响应式调整
+@media (max-width: 768px) {
+  .tech-grid, .case-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-section, .tech-section, .case-section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .cta-section {
+    padding: 2rem 1rem;
+  }
+}
+
+
+/* 增强 highlights 部分的视觉效果 */
+.vp-highlight-wrapper {
+  margin-top: -2rem !important;
+  position: relative;
+  z-index: 2;
+}
+
+.vp-highlight {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dark .vp-highlight {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.vp-highlight:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.vp-highlight-info {
+  padding: 2rem !important;
+}
+
+.vp-highlight-header {
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1rem !important;
+  background: linear-gradient(90deg, var(--theme-color), var(--theme-color-dark, #0056b3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vp-highlight-description {
+  font-size: 1.1rem !important;
+  opacity: 0.9;
+  margin-bottom: 2rem !important;
+}
+
+.vp-feature-wrapper {
+  margin-top: 2rem !important;
+}
+
+.vp-feature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+}
+
+.vp-feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.vp-feature-title {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  margin-top: 1rem !important;
+}
+
+.vp-feature-details {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+/* 调整 hero 部分的高度，确保 highlights 在首屏可见 */
+.vp-hero-wrapper {
+  min-height: 60vh !important;
+}
