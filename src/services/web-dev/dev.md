@@ -281,3 +281,5 @@ icon: laptop-code
   }
 }
 </style>
+
+<GoogleAdsense slot="3037493779" />
