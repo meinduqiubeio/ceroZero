@@ -6,19 +6,12 @@ export const zhSidebar = sidebar({
     {
       text: "Code",
       icon: "code",
-      prefix: "posts/tech/",
-      children: [
-        "intro.md",
-        // "mobile-app/",
-        // "mini-program/",
-        // "tools/",
-      ],
+      link: "/posts/tech/intro.md",
     },
     {
       text: "生活记录",
       icon: "camera",
       link: "/posts/life/intro.md",
-      activeMatch: "^/posts/life/$",
     },
     {
       text: "服务项目",
@@ -29,6 +22,37 @@ export const zhSidebar = sidebar({
         "e-menu/emenu.md",
         "translation/translation.md",
         // "real-estate/",
+      ],
+    },
+  ],
+  
+  // 为科技页面单独配置侧边栏
+  "/posts/tech/": [
+    {
+      text: "科技",
+      icon: "code",
+      children: [
+        "intro.md",
+        {
+          text: "Web开发",
+          icon: "globe",
+          prefix: "web/",
+          collapsible: true,
+          children: [
+            // "frontend.md",
+            // "backend.md",
+          ],
+        },
+        {
+          text: "移动应用",
+          icon: "mobile",
+          prefix: "mobile/",
+          collapsible: true,
+          children: [
+            // "android.md",
+            // "ios.md",
+          ],
+        },
       ],
     },
   ],

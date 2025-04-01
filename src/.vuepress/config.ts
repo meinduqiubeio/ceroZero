@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
 import { socialSharePlugin } from 'vuepress-plugin-social-share';
 import { sitemapPlugin } from '@vuepress/plugin-sitemap';
-
+import tailwindcss from '@tailwindcss/vite';
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -53,6 +53,7 @@ export default defineUserConfig({
     ],
   ],
   plugins: [
+    tailwindcss(),
     sitemapPlugin({
       hostname: 'https://cerozero.cc',
       // 可选：排除不需要的页面
