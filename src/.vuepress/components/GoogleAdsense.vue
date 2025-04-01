@@ -37,6 +37,18 @@ export default {
 
 <style>
 .google-adsense {
-  margin: 20px 0;
+  margin: 15px auto;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--bg-color-secondary, #f8f8f8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 719px) {
+  .google-adsense {
+    max-width: 95%;
+    margin: 10px auto;
+  }
 }
 </style>

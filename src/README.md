@@ -81,6 +81,3 @@ highlights:
   }
 }
 </style>
-
-<GoogleAdsense />
-<GoogleAdsense slot="3037493779" />

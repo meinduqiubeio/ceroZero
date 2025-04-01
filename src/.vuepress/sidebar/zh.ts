@@ -17,31 +17,8 @@ export const zhSidebar = sidebar({
     {
       text: "生活记录",
       icon: "camera",
-      prefix: "posts/life/",
-      collapsible: true,
-      expanded: false,
-      children: [
-         "intro.md",
-         {
-           text: "驾照相关",
-           icon: "id-card",
-           prefix: "drivingLicense/",
-           collapsible: true,
-           children: [
-             "renewDriverLicense.md",
-             // 其他驾照相关文件
-           ],
-         },
-         {
-          text: "材料",
-          icon: "landmark",
-          prefix: "documents/",
-          collapsible: true,
-          children: [
-            "vidaLaboral.md",
-          ],
-        },
-      ],
+      link: "/posts/life/intro.md",
+      activeMatch: "^/posts/life/$",
     },
     {
       text: "服务项目",
@@ -52,6 +29,36 @@ export const zhSidebar = sidebar({
         "e-menu/emenu.md",
         "translation/translation.md",
         // "real-estate/",
+      ],
+    },
+  ],
+  
+  // 为生活记录页面单独配置侧边栏
+  "/posts/life/": [
+    {
+      text: "生活记录",
+      icon: "camera",
+      children: [
+        "intro.md",
+        {
+          text: "驾照相关",
+          icon: "id-card",
+          prefix: "drivingLicense/",
+          collapsible: true,
+          children: [
+            "renewDriverLicense.md",
+            // 其他驾照相关文件
+          ],
+        },
+        {
+          text: "材料",
+          icon: "landmark",
+          prefix: "documents/",
+          collapsible: true,
+          children: [
+            "vidaLaboral.md",
+          ],
+        },
       ],
     },
   ],

@@ -41,27 +41,7 @@ export default defineUserConfig({
     // 添加Twitter卡片
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:site', content: '@cerotech' }],
-    
-    // 保留原有的脚本
-    ['script', { 
-      id: 'CookieDeclaration',
-      src: 'https://consent.cookiebot.com/6de2a54e-c721-480d-9f82-b65954fe08b3/cd.js',
-      type: 'text/javascript',
-      async: true,
-      'data-lang': 'zh' // 支持多语言版本
-    }
-    ],
-    [
-      'script',
-      {
-        id: 'Cookiebot',
-        async: true,
-        defer: true,
-        src: 'https://consent.cookiebot.com/uc.js',
-        'data-cbid': '6de2a54e-c721-480d-9f82-b65954fe08b3',
-        'data-blockingmode': 'auto' // 自动阻止非必要脚本
-      }
-    ],
+
     // 插入 Google AdSense 脚本
     [
       "script",
@@ -123,7 +103,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      // title: "Cero Tech",
+      title: "Cero Tech"
       //  description: "「从零构建」- 「向极拓展」",
     },
     "/en/": {
