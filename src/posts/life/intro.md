@@ -63,3 +63,8 @@ icon: plane
 ## 获取帮助
 
 如果您还有建议或者疑问，欢迎 [联系我](/posts/intro.md)。
+
+
+
+<GoogleAdsense />
+<GoogleAdsense slot="3037493779" />
